@@ -16,10 +16,12 @@ body {
 }
 
 header {
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   background-color: #ffdab9;
   padding: 1rem 5%;
+  z-index: 1000;
 }
 
 header img {
