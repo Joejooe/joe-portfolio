@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -20,15 +16,9 @@ body {
 }
 
 header {
-  position: sticky;
-  top: 0;
+  position: fixed;
   width: 100%;
   background-color: #ffdab9;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  z-index: 1000;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 1rem 5%;
 }
 
